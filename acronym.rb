@@ -1,5 +1,5 @@
 module BookKeeping
-  VERSION = 1
+  VERSION = 4
 end
 
 class Acronym
@@ -11,7 +11,4 @@ class Acronym
     end
     result.join
   end
-  module BookKeeping
-      VERSION = 1 # Where the version number matches the one in the test.
-    end
 end

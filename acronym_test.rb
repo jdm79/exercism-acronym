@@ -52,6 +52,6 @@ class AcronymTest < Minitest::Test
 
   def test_bookkeeping
     # skip
-    assert_equal 1, BookKeeping::VERSION
+    assert_equal 4, BookKeeping::VERSION
   end
 end
